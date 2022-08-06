@@ -1,0 +1,982 @@
+{
+  "head": {
+    "docType": "3",
+    "editorVersion": "6.5.5",
+    "newgId": true,
+    "c_para": {},
+    "x": 4020,
+    "y": 3428,
+    "hasIdFlag": true,
+    "importFlag": 0,
+    "transformList": ""
+  },
+  "canvas": "CA~1000~1000~#000000~yes~#FFFFFF~19.685~1000~1000~line~3.937~mm~1.2~45~visible~3.937~4020~3428~0~yes",
+  "shape": [
+    "TRACK~1~10~S$12440~4020 3428 4492.44 3428~gge12439~0",
+    "TRACK~1~10~S$12447~4020 3428 4020 3073.67~gge7~0",
+    "TRACK~1~10~S$12440~4492.44 3073.67 4492.44 3428~gge68840~0",
+    "TRACK~1~10~S$12447~4020 3073.6699 4492.44 3073.6699~gge12446~0",
+    "PAD~ELLIPSE~4035.748~3412.252~19.685~19.685~11~~1~5.9055~~0~gge68947~0~~Y~0~~~4035.748,3412.252",
+    "PAD~ELLIPSE~4035.748~3412.252~19.685~19.685~11~~1~5.9055~~0~gge68983~0~~Y~0~~~4035.748,3412.252",
+    "PAD~ELLIPSE~4476.692~3412.252~19.685~19.685~11~~1~5.9055~~0~gge69001~0~~Y~0~~~4476.692,3412.252",
+    "PAD~ELLIPSE~4035.748~3412.252~19.685~19.685~11~~1~5.9055~~0~gge69019~0~~Y~0~~~4035.748,3412.252",
+    "PAD~ELLIPSE~4035.748~3089.418~19.685~19.685~11~~1~5.9055~~0~gge69037~0~~Y~0~~~4035.748,3089.418",
+    "PAD~ELLIPSE~4476.692~3089.418~19.685~19.685~11~~1~5.9055~~0~gge69055~0~~Y~0~~~4476.692,3089.418"
+  ],
+  "layers": [
+    "1~TopLayer~#FF0000~true~false~true~",
+    "2~BottomLayer~#0000FF~true~false~true~",
+    "3~TopSilkLayer~#FFCC00~true~false~true~",
+    "4~BottomSilkLayer~#66CC33~true~false~true~",
+    "5~TopPasteMaskLayer~#808080~true~false~true~",
+    "6~BottomPasteMaskLayer~#800000~true~false~true~",
+    "7~TopSolderMaskLayer~#800080~true~false~true~0.3",
+    "8~BottomSolderMaskLayer~#AA00FF~true~false~true~0.3",
+    "9~Ratlines~#6464FF~true~false~true~",
+    "10~BoardOutLine~#FF00FF~true~true~true~",
+    "11~Multi-Layer~#C0C0C0~true~false~true~",
+    "12~Document~#FFFFFF~true~false~true~",
+    "13~TopAssembly~#33CC99~false~false~false~",
+    "14~BottomAssembly~#5555FF~false~false~false~",
+    "15~Mechanical~#F022F0~false~false~false~",
+    "19~3DModel~#66CCFF~false~false~false~",
+    "21~Inner1~#999966~false~false~false~~",
+    "22~Inner2~#008000~false~false~false~~",
+    "23~Inner3~#00FF00~false~false~false~~",
+    "24~Inner4~#BC8E00~false~false~false~~",
+    "25~Inner5~#70DBFA~false~false~false~~",
+    "26~Inner6~#00CC66~false~false~false~~",
+    "27~Inner7~#9966FF~false~false~false~~",
+    "28~Inner8~#800080~false~false~false~~",
+    "29~Inner9~#008080~false~false~false~~",
+    "30~Inner10~#15935F~false~false~false~~",
+    "31~Inner11~#000080~false~false~false~~",
+    "32~Inner12~#00B400~false~false~false~~",
+    "33~Inner13~#2E4756~false~false~false~~",
+    "34~Inner14~#99842F~false~false~false~~",
+    "35~Inner15~#FFFFAA~false~false~false~~",
+    "36~Inner16~#99842F~false~false~false~~",
+    "37~Inner17~#2E4756~false~false~false~~",
+    "38~Inner18~#3535FF~false~false~false~~",
+    "39~Inner19~#8000BC~false~false~false~~",
+    "40~Inner20~#43AE5F~false~false~false~~",
+    "41~Inner21~#C3ECCE~false~false~false~~",
+    "42~Inner22~#728978~false~false~false~~",
+    "43~Inner23~#39503F~false~false~false~~",
+    "44~Inner24~#0C715D~false~false~false~~",
+    "45~Inner25~#5A8A80~false~false~false~~",
+    "46~Inner26~#2B937E~false~false~false~~",
+    "47~Inner27~#23999D~false~false~false~~",
+    "48~Inner28~#45B4E3~false~false~false~~",
+    "49~Inner29~#215DA1~false~false~false~~",
+    "50~Inner30~#4564D7~false~false~false~~",
+    "51~Inner31~#6969E9~false~false~false~~",
+    "52~Inner32~#9069E9~false~false~false~~",
+    "99~ComponentShapeLayer~#00CCCC~false~false~false~0.4",
+    "100~LeadShapeLayer~#CC9999~false~false~false~",
+    "101~ComponentMarkingLayer~#66FFCC~false~false~false~",
+    "Hole~Hole~#222222~false~false~true~",
+    "DRCError~DRCError~#FAD609~false~false~true~"
+  ],
+  "objects": [
+    "All~true~false",
+    "Component~true~true",
+    "Prefix~true~true",
+    "Name~true~false",
+    "Track~true~true",
+    "Pad~true~true",
+    "Via~true~true",
+    "Hole~true~true",
+    "Copper_Area~true~true",
+    "Circle~true~true",
+    "Arc~true~true",
+    "Solid_Region~true~true",
+    "Text~true~true",
+    "Image~true~true",
+    "Rect~true~true",
+    "Dimension~true~true",
+    "Protractor~true~true"
+  ],
+  "BBox": {
+    "x": 4020,
+    "y": 3073.7,
+    "width": 472.4,
+    "height": 354.3
+  },
+  "preference": {
+    "hideFootprints": "",
+    "hideNets": ""
+  },
+  "DRCRULE": {
+    "Default": {
+      "trackWidth": 1.2008,
+      "clearance": 1.2008,
+      "viaHoleDiameter": 2.4016,
+      "viaHoleD": 1.2008
+    },
+    "isRealtime": true,
+    "isDrcOnRoutingOrPlaceVia": false,
+    "checkObjectToCopperarea": true,
+    "showDRCRangeLine": true
+  },
+  "routerRule": {
+    "unit": "mm",
+    "trackWidth": 0.305,
+    "trackClearance": 0.305,
+    "viaHoleD": 0.305,
+    "viaDiameter": 0.61,
+    "routerLayers": [
+      1,
+      2
+    ],
+    "smdClearance": 0.305,
+    "specialNets": [
+      {
+        "net": "GND",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "D3_2",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "DC_IN",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U1_8",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U1_6",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "R3_1",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "R4_2",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U1_1",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "+3V3",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "C14_2",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "C15_1",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "LE_SEG",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U10_4",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U10_5",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U10_7",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U10_8",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "KEY1_1",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "VUSB",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "CN1_1",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "CN1_2",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "CN1_3",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "CN1_4",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "SW1",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "SW2",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "SW3",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "SW4",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "DIN_COM",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U1_3",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "USB1_1",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "P47",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "P46",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "P45",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "P44",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "P43",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "P42",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "P41",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "P40",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "LED4_1",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U3_5",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U3_1",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U3_7",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U3_11",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U1_5",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "RX",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U2_3",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U10_32",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "M1_PWM",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "TX",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U2_2",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U10_33",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "M1_IN1",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U10_34",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "M1_IN2",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U10_35",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U10_36",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U10_37",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U5_19",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "SEG_A",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U5_18",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "SEG_B",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U5_17",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "SEG_C",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U5_16",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "SEG_D",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U5_15",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "SEG_E",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U5_14",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "SEG_F",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U5_13",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "SEG_G",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U5_12",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "SEG_DP",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U7_1",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "DIN_1",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "SCL",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "SDA",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "DIN_2",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "R35_2",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "U9_1",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "DIN_3",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "DIN_4",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "R39_2",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "INFRA",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "USER_KEY",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "COM1",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "COM4",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "COM2",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "COM3",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "COM5",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "COM8",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "COM6",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "COM7",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "USB_D+",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "USB_D-",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "STBY",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "X2_2",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "P00",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "P01",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "P02",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "P03",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "P04",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "P05",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "P06",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "P07",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      },
+      {
+        "net": "LE_COM",
+        "width": "1.2px",
+        "clearance": "1.2px",
+        "viaHoleD": "1.2px",
+        "viaHoleDiameter": "2.4px"
+      }
+    ],
+    "nets": [
+      "+3V3",
+      "C14_2",
+      "C15_1",
+      "CN1_1",
+      "CN1_2",
+      "CN1_3",
+      "CN1_4",
+      "COM1",
+      "COM2",
+      "COM3",
+      "COM4",
+      "COM5",
+      "COM6",
+      "COM7",
+      "COM8",
+      "D3_2",
+      "DC_IN",
+      "DIN_1",
+      "DIN_2",
+      "DIN_3",
+      "DIN_4",
+      "DIN_COM",
+      "GND",
+      "INFRA",
+      "KEY1_1",
+      "LED4_1",
+      "LE_COM",
+      "LE_SEG",
+      "M1_IN1",
+      "M1_IN2",
+      "M1_PWM",
+      "P00",
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P06",
+      "P07",
+      "P40",
+      "P41",
+      "P42",
+      "P43",
+      "P44",
+      "P45",
+      "P46",
+      "P47",
+      "R35_2",
+      "R39_2",
+      "R3_1",
+      "R4_2",
+      "RX",
+      "SCL",
+      "SDA",
+      "SEG_A",
+      "SEG_B",
+      "SEG_C",
+      "SEG_D",
+      "SEG_DP",
+      "SEG_E",
+      "SEG_F",
+      "SEG_G",
+      "STBY",
+      "SW1",
+      "SW2",
+      "SW3",
+      "SW4",
+      "TX",
+      "U10_32",
+      "U10_33",
+      "U10_34",
+      "U10_35",
+      "U10_36",
+      "U10_37",
+      "U10_4",
+      "U10_5",
+      "U10_7",
+      "U10_8",
+      "U1_1",
+      "U1_3",
+      "U1_5",
+      "U1_6",
+      "U1_8",
+      "U2_2",
+      "U2_3",
+      "U3_1",
+      "U3_11",
+      "U3_5",
+      "U3_7",
+      "U5_12",
+      "U5_13",
+      "U5_14",
+      "U5_15",
+      "U5_16",
+      "U5_17",
+      "U5_18",
+      "U5_19",
+      "U7_1",
+      "U9_1",
+      "USB1_1",
+      "USB_D+",
+      "USB_D-",
+      "USER_KEY",
+      "VUSB",
+      "X2_2"
+    ],
+    "padsCount": 391,
+    "skipNets": [],
+    "realtime": true
+  },
+  "netColors": {}
+}
